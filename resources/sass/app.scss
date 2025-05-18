@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+// Old Money Pink Theme
+body {
+    background-color: #fff9fa;
+}
+
+.navbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid #f8d7da;
+}
+
+.btn-outline-secondary {
+    border-color: #dee2e6;
+    color: #6c757d;
+    &:hover {
+        background-color: #f8d7da;
+        border-color: #f8d7da;
+    }
+}
+
+// Hover effect for posts
+.hover-opacity-10:hover {
+    opacity: 0.1 !important;
+}
+.transition-all {
+    transition: all 0.3s ease;
+}
